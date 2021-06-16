@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.ani{
+	overflow: hidden;
+}
+
+@keyframes A{
+0% {transform: translateX(0px);}
+33% {transform: translateX(0px);}
+66% {transform: translateX(-780px);}
+100% {transform: translateX(-780px);}
+}
+#img1 {
+	animation-name: A;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	position: relative;
+	left : 0px;
+	bottom: 0px;
+}
+#img2 {
+	animation-name: A;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	position: relative;
+	left: 780px;
+	bottom: 491px;
+}
+
+</style>
+</head>
+<body>
+<div class="ani">
+<img id="img1" img src="./img/reptile.jpg"width="780">
+<img id="img2" 1mg src="./img/reptile2.jpg" width="780">
+</div>
+
+</body>
+</html>
